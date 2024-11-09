@@ -4,7 +4,7 @@ Name:		python-youtube-transcript-api
 Version:	0.6.2
 Release:	1
 Url:		https://github.com/jdepoix/youtube-transcript-api
-Source0:	youtube-transcript-api-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/source/y/youtube_transcript_api/youtube_transcript_api-%{version}.tar.gz
 License:	MIT
 Group:		Development/Python
 Provides:	%{module}
@@ -30,7 +30,7 @@ It also works for automatically generated subtitles, supports translating subtit
 #--------------------------------------------------------------------
 
 %prep
-%autosetup -n %{module}-%{version} -p1
+%autosetup -n youtube_transcript_api-%{version} -p1
 
 %build
 %py_build
