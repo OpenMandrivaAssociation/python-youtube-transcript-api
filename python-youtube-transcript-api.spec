@@ -30,7 +30,7 @@ It also works for automatically generated subtitles, supports translating subtit
 #--------------------------------------------------------------------
 
 %prep
-%autosetup -n pytube-%{version} -p1
+%autosetup -n %{module}-%{version} -p1
 
 %build
 %py_build
