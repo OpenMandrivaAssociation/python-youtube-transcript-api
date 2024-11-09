@@ -24,9 +24,9 @@ It also works for automatically generated subtitles, supports translating subtit
 #--------------------------------------------------------------------
 
 %files
-#{_bindir}/pytube
-#{python_sitelib}/pytube-%{version}-py*.*.egg-info
-#{python_sitelib}/pytube//
+%{_bindir}/youtube_transcript_api
+%{python_sitelib}/youtube_transcript_api-%{version}-py*.*.egg-info
+%{python_sitelib}/youtube_transcript_api/
 #--------------------------------------------------------------------
 
 %prep
