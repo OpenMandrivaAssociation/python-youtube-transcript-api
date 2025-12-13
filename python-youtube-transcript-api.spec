@@ -13,10 +13,10 @@ BuildRequires:	pkgconfig
 BuildRequires:	pkgconfig(python)
 BuildRequires:	python%{pyver}dist(poetry-core)
 BuildRequires:	python%{pyver}dist(requests)
-BuildRequires:	python%{pyver}dist(defusedxml)
-BuildRequires:  python%{pyver}dist(coverage)
-BuildRequires:  python%{pyver}dist(httpretty)
-BuildRequires:  python%{pyver}dist(mock)
+# BuildRequires:	python%{pyver}dist(defusedxml)
+# BuildRequires:	python%{pyver}dist(coverage)
+# BuildRequires:	python%{pyver}dist(httpretty)
+# BuildRequires:	python%{pyver}dist(mock)
 
 Provides:	%{module}
 
