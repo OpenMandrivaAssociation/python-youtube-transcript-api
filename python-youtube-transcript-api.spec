@@ -11,6 +11,7 @@ Group:		Development/Python
 BuildArch:	noarch
 BuildRequires:	pkgconfig
 BuildRequires:	pkgconfig(python)
+BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(poetry-core)
 BuildRequires:	python%{pyver}dist(requests)
 # BuildRequires:	python%{pyver}dist(defusedxml)
