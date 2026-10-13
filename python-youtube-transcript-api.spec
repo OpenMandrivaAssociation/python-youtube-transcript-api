@@ -20,6 +20,10 @@ BuildRequires:	python%{pyver}dist(defusedxml)
 BuildRequires:	python%{pyver}dist(wheel)
 Provides:	%{module}
 
+%prep -a
+# 1.2.4 is the current release and still caps CPython below 3.15.
+sed -i 's/python = ">=3.8,<3.15"/python = ">=3.8"/' pyproject.toml
+
 %description
 This is a python API which allows you to retrieve the transcript/subtitles for
 a given YouTube video.
